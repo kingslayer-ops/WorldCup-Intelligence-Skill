@@ -74,9 +74,17 @@ FIFA 官方信息
 | `templates/` | 标准化输出模板，可直接复制填充 |
 | `prompts/` | 不同角色模式的提示词，如分析师、教练、解说员、数据模式等 |
 
+## 快速开始
+
+```bash
+git clone https://github.com/kingslayer-ops/WorldCup-Intelligence-Skill.git
+```
+
+克隆后将仓库目录作为 Skill 加载到你的 AI Agent 即可使用，无需安装依赖、无需配置 API Key。
+
 ## 快速使用
 
-将本仓库作为 Skill 加载后，直接用自然语言提出需求即可：
+加载 Skill 后，直接用自然语言提出需求：
 
 ```text
 使用 WorldCup-Intelligence-Skill，分析阿根廷 vs 法国的赛前看点。
