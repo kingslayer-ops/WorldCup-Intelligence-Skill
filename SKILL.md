@@ -105,10 +105,14 @@ tags: [足球, 世界杯, 体育分析, 战术, AI内容生成]
 ## 目录结构
 
 ```
-├── SKILL.md          # 本文件（核心规范）
-├── README.md         # 项目说明
-├── LICENSE           # 开源协议（MIT）
-├── examples/         # 使用示例
-├── templates/        # 标准化输出模板
-└── prompts/          # 角色提示词
+├── SKILL.md              # 本文件（核心规范）
+├── SOURCE_POLICY.md      # 数据来源与核验规范
+├── WORKFLOW.md           # 分析执行流程
+├── README.md             # 项目说明
+├── LICENSE               # 开源协议（MIT）
+├── examples/             # 使用示例
+│   ├── mock_*.md         # 虚构格式示例（展示结构）
+│   └── real_*.md         # 真实案例示例（展示实战）
+├── templates/            # 标准化输出模板
+└── prompts/              # 角色提示词
 ```
